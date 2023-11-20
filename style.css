@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;    
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+body > div{
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin: auto;
+    padding: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+img{
+    max-height: 150px;
+    max-width: 250px;
+}
+
+header, nav{
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
+    color: rgb(30, 240, 30);
+    margin-bottom: 0;
+}
+
+nav{
+    background-color: rgb(30, 240, 30);
+    padding: 10px;
+}
+
+section h2{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+section span{
+    display: block;
+    color: white;
+}
+
+section hr{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#mediumcharge{    
+    background-color: rgb(243, 155, 54);
+    width: 40%;
+    border: 1px solid rgb(243,155,54);
+}
+
+#charged{    
+    background-color: rgb(3, 180, 3);
+    width: 60%;  
+    border: 1px solid rgb(3, 180, 3);  
+}
+
+#lowcharge{    
+    background-color:brown;
+    width: 20%;
+    border: 1px solid brown    
+}
+
